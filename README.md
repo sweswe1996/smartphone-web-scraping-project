@@ -53,7 +53,3 @@ This project was created for educational and learning purposes only.
 Please respect the target website's Terms of Service, robots.txt rules, and copyright policies before performing large-scale or commercial web scraping.
 
 The author is not responsible for any misuse of this code.
-
-## Educational Purpose
-
-This project was developed as a Final Capstone Project for the Python Essentials for Beginners Online Course and is intended to demonstrate Python programming, web scraping, data processing, and Excel export techniques.
