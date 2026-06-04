@@ -14,28 +14,6 @@ This project is a Python web scraping project that extracts smartphone product i
 * Error handling with try-except
 * Reusable Python functions
 
-## Project Structure
-
-### create_page_urls()
-
-Creates all website page URLs for scraping.
-
-### extract_p_info_tags()
-
-Extracts product information tags from each page.
-
-### extract_p_name()
-
-Extracts product names from product information tags.
-
-### extract_p_price()
-
-Extracts product prices and converts them into numeric values.
-
-### main()
-
-Controls the complete scraping process and exports the final dataset into Excel format.
-
 ## Technologies Used
 
 * Python
@@ -46,9 +24,27 @@ Controls the complete scraping process and exports the final dataset into Excel 
 * OpenPyXL
 * html5lib
 
-## Output
+## Project Workflow
 
-The scraped data is exported into: Final Data.xlsx
+The program follows the steps below:
+
+1. Connect to the smartphone product website.
+2. Automatically generate all available page URLs.
+3. Visit each webpage one by one.
+4. Extract smartphone product names and prices.
+5. Clean and convert the extracted data into a structured format.
+6. Store all collected records in a Pandas DataFrame.
+7. Combine data from all pages into a single dataset.
+8. Export the final dataset into an Excel file named **Final Data.xlsx**.
+9. Display progress and completion messages during execution.
+
+## Data Flow
+
+Website → Web Scraping → Data Cleaning → Pandas DataFrame → Excel Export
+
+## Error Handling
+
+The project uses try-except blocks to handle unexpected errors during data extraction and conversion. Missing or invalid values are replaced with default values to prevent the program from stopping unexpectedly.
 
 ## Warning
 
