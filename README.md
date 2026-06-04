@@ -1,8 +1,6 @@
 # smartphone-web-scraping-project
 Final Capstone Project
 
-# Smartphone Website Data Extraction Project
-
 ## Project Overview
 
 This project is a Python web scraping project that extracts smartphone product information from the AnyCall Mobile Myanmar website and exports the collected data into an Excel file.
@@ -50,9 +48,7 @@ Controls the complete scraping process and exports the final dataset into Excel 
 
 ## Output
 
-The scraped data is exported into:
-
-Final Data.xlsx
+The scraped data is exported into: Final Data.xlsx
 
 ## Warning
 
